@@ -1,0 +1,56 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ogGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0000ff;stop-opacity:0.8" />
+    </linearGradient>
+    <filter id="ogGlow">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#ogGradient)"/>
+  
+  <!-- Main Title -->
+  <text x="600" y="200" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="120" font-weight="bold">
+    NOSMOK
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="280" text-anchor="middle" fill="#0000ff" font-family="Arial, sans-serif" font-size="60" font-weight="bold">
+    금연으로 건강한 삶을
+  </text>
+  
+  <!-- Heart Symbol -->
+  <path d="M600 400 C600 400, 550 350, 500 400 C450 450, 600 500, 600 500 C600 500, 750 450, 700 400 C650 350, 600 400, 600 400 Z" 
+        fill="#0000ff" filter="url(#ogGlow)" opacity="0.9"/>
+  
+  <!-- Leaf Elements -->
+  <path d="M400 350 Q450 300, 500 350 Q450 400, 400 350 Z" fill="#00ff00" opacity="0.7"/>
+  <path d="M800 350 Q750 300, 700 350 Q750 400, 800 350 Z" fill="#00ff00" opacity="0.7"/>
+  <path d="M600 500 Q650 450, 700 500 Q650 550, 600 500 Z" fill="#00ff00" opacity="0.7"/>
+  
+  <!-- Abstract Elements -->
+  <circle cx="400" cy="450" r="30" fill="none" stroke="#0000ff" stroke-width="3" opacity="0.6"/>
+  <circle cx="800" cy="450" r="30" fill="none" stroke="#0000ff" stroke-width="3" opacity="0.6"/>
+  
+  <!-- Energy Lines -->
+  <line x1="300" y1="300" x2="400" y2="400" stroke="#0000ff" stroke-width="4" opacity="0.5"/>
+  <line x1="900" y1="300" x2="800" y2="400" stroke="#0000ff" stroke-width="4" opacity="0.5"/>
+  
+  <!-- Floating Particles -->
+  <circle cx="300" cy="200" r="8" fill="#ffffff" opacity="0.8"/>
+  <circle cx="900" cy="200" r="8" fill="#ffffff" opacity="0.8"/>
+  <circle cx="300" cy="500" r="8" fill="#ffffff" opacity="0.8"/>
+  <circle cx="900" cy="500" r="8" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Tagline -->
+  <text x="600" y="580" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="40" opacity="0.8">
+    Start Your Healthy Journey Today
+  </text>
+</svg>

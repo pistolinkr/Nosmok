@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="담배의 주요 성분과 흡연의 위험성에 대해 알아보세요. 니코틴, 타르, 일산화탄소 등 담배의 치명적인 성분들을 자세히 설명합니다.">
+    <meta name="keywords" content="담배성분, 흡연위험, 니코틴, 타르, 일산화탄소, 폐암, 심장병">
+    <meta name="author" content="NOSMOK Team">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nosmok.com/smoking-dangers">
+    <meta property="og:title" content="담배의 치명적 성분과 위험성 - NOSMOK">
+    <meta property="og:description" content="담배에 포함된 유해성분과 흡연이 인체에 미치는 치명적인 영향에 대해 알아보세요.">
+    <meta property="og:image" content="/assets/img/og-image.svg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://nosmok.com/smoking-dangers">
+    <meta property="twitter:title" content="담배의 치명적 성분과 위험성 - NOSMOK">
+    <meta property="twitter:description" content="담배에 포함된 유해성분과 흡연이 인체에 미치는 치명적인 영향에 대해 알아보세요.">
+    <meta property="twitter:image" content="/assets/img/og-image.svg">
+    
+    <title>담배의 치명적 성분과 위험성 - NOSMOK</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h1><a href="index.html" style="color: var(--accent-color); text-decoration: none;">NOSMOK</a></h1>
+            </div>
+            <ul class="nav__menu">
+                <li><a href="index.html#home" class="nav__link">홈</a></li>
+                <li><a href="index.html#benefits" class="nav__link">금연효과</a></li>
+                <li><a href="index.html#methods" class="nav__link">금연방법</a></li>
+                <li><a href="index.html#community" class="nav__link">커뮤니티</a></li>
+                <li><a href="index.html#contact" class="nav__link">문의</a></li>
+                <li><a href="smoking-dangers.html" class="nav__link nav__link--active">흡연위험</a></li>
+            </ul>
+            <div class="nav__toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero hero--danger">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h2 class="hero__title">담배의 <span class="hero__highlight">치명적 성분</span></h2>
+                    <p class="hero__description">
+                        담배 한 개비에는 4,000여 가지의 화학물질이 포함되어 있습니다. 
+                        이 중 250여 가지는 인체에 유해하며, 50여 가지는 암을 일으키는 발암물질입니다.
+                    </p>
+                    <div class="hero__buttons">
+                        <button class="btn btn--danger" onclick="scrollToSection('components')">
+                            <i class="fas fa-flask"></i> 주요 성분 보기
+                        </button>
+                        <button class="btn btn--secondary" onclick="scrollToSection('dangers')">
+                            <i class="fas fa-exclamation-triangle"></i> 위험성 알아보기
+                        </button>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="/assets/img/cigarette-components.svg" alt="담배의 유해성분 분석" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- Cigarette Components Section -->
+        <section id="components" class="components section">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">담배의 주요 유해성분</h2>
+                    <p class="section__subtitle">담배에 포함된 가장 위험한 화학물질들을 자세히 알아보세요</p>
+                </div>
+                
+                <div class="components__grid">
+                    <div class="component__card">
+                        <div class="component__icon component__icon--nicotine">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>니코틴 (Nicotine)</h3>
+                        <p class="component__description">
+                            <strong>중독성 물질</strong>로, 뇌의 보상체계를 자극하여 흡연 의존성을 만듭니다.
+                        </p>
+                        <ul class="component__effects">
+                            <li>혈압 상승</li>
+                            <li>심박수 증가</li>
+                            <li>혈관 수축</li>
+                            <li>중독성</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="component__card">
+                        <div class="component__icon component__icon--tar">
+                            <i class="fas fa-lungs"></i>
+                        </div>
+                        <h3>타르 (Tar)</h3>
+                        <p class="component__description">
+                            <strong>발암물질</strong>이 포함된 끈적한 검은 물질로, 폐에 침착됩니다.
+                        </p>
+                        <ul class="component__effects">
+                            <li>폐암 유발</li>
+                            <li>기관지염</li>
+                            <li>폐기능 저하</li>
+                            <li>치아 변색</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="component__card">
+                        <div class="component__icon component__icon--carbon">
+                            <i class="fas fa-wind"></i>
+                        </div>
+                        <h3>일산화탄소 (CO)</h3>
+                        <p class="component__description">
+                            <strong>산소 운반 방해</strong>로 인해 조직의 산소 공급을 차단합니다.
+                        </p>
+                        <ul class="component__effects">
+                            <li>산소 부족</li>
+                            <li>피로감</li>
+                            <li>심장부담</li>
+                            <li>운동능력 저하</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="component__card">
+                        <div class="component__icon component__icon--carcinogens">
+                            <i class="fas fa-skull-crossbones"></i>
+                        </div>
+                        <h3>발암물질</h3>
+                        <p class="component__description">
+                            <strong>50여 가지의 발암물질</strong>이 포함되어 다양한 암을 유발합니다.
+                        </p>
+                        <ul class="component__effects">
+                            <li>폐암</li>
+                            <li>후두암</li>
+                            <li>식도암</li>
+                            <li>방광암</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Health Dangers Section -->
+        <section id="dangers" class="dangers section">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">흡연이 인체에 미치는 치명적 영향</h2>
+                    <p class="section__subtitle">담배 한 개비가 당신의 건강을 어떻게 파괴하는지 확인해보세요</p>
+                </div>
+                
+                <div class="dangers__content">
+                    <div class="danger__category">
+                        <h3><i class="fas fa-heart"></i> 심혈관계 질환</h3>
+                        <div class="danger__items">
+                            <div class="danger__item">
+                                <span class="danger__name">심장마비</span>
+                                <span class="danger__risk danger__risk--high">위험도: 매우 높음</span>
+                            </div>
+                            <div class="danger__item">
+                                <span class="danger__name">뇌졸중</span>
+                                <span class="danger__risk danger__risk--high">위험도: 매우 높음</span>
+                            </div>
+                            <div class="danger__item">
+                                <span class="danger__name">고혈압</span>
+                                <span class="danger__risk danger__risk--medium">위험도: 높음</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="danger__category">
+                        <h3><i class="fas fa-lungs"></i> 호흡기 질환</h3>
+                        <div class="danger__items">
+                            <div class="danger__item">
+                                <span class="danger__name">폐암</span>
+                                <span class="danger__risk danger__risk--critical">위험도: 치명적</span>
+                            </div>
+                            <div class="danger__item">
+                                <span class="danger__name">만성폐쇄성폐질환</span>
+                                <span class="danger__risk danger__risk--high">위험도: 매우 높음</span>
+                            </div>
+                            <div class="danger__item">
+                                <span class="danger__name">기관지염</span>
+                                <span class="danger__risk danger__risk--medium">위험도: 높음</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="danger__category">
+                        <h3><i class="fas fa-brain"></i> 신경계 질환</h3>
+                        <div class="danger__items">
+                            <div class="danger__item">
+                                <span class="danger__name">뇌혈관질환</span>
+                                <span class="danger__risk danger__risk--high">위험도: 매우 높음</span>
+                            </div>
+                            <div class="danger__item">
+                                <span class="danger__name">치매 위험 증가</span>
+                                <span class="danger__risk danger__risk--medium">위험도: 높음</span>
+                            </div>
+                            <div class="danger__item">
+                                <span class="danger__name">중독성</span>
+                                <span class="danger__risk danger__risk--critical">위험도: 치명적</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section class="statistics statistics--danger section">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">충격적인 흡연 통계</h2>
+                    <p class="section__subtitle">매년 전 세계에서 흡연으로 인해 발생하는 사망자 수</p>
+                </div>
+                
+                <div class="statistics__grid">
+                    <div class="stat__item">
+                        <div class="stat__number" data-target="8000000">0</div>
+                        <p>연간 전 세계 흡연 사망자</p>
+                    </div>
+                    <div class="stat__item">
+                        <div class="stat__number" data-target="90">0</div>
+                        <p>폐암 환자의 흡연 비율(%)</p>
+                    </div>
+                    <div class="stat__item">
+                        <div class="stat__number" data-target="15">0</div>
+                        <p>흡연으로 단축되는 수명(년)</p>
+                    </div>
+                    <div class="stat__item">
+                        <div class="stat__number" data-target="4000">0</div>
+                        <p>담배에 포함된 화학물질 수</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="cta section">
+            <div class="container">
+                <div class="cta__content">
+                    <h2>지금 당장 금연을 시작하세요!</h2>
+                    <p>담배의 치명적 성분과 위험성을 알았다면, 더 이상 미룰 이유가 없습니다.</p>
+                    <div class="cta__buttons">
+                        <a href="index.html#methods" class="btn btn--primary">
+                            <i class="fas fa-lightbulb"></i> 금연방법 알아보기
+                        </a>
+                        <a href="index.html#benefits" class="btn btn--secondary">
+                            <i class="fas fa-heart"></i> 금연효과 보기
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3>NOSMOK</h3>
+                    <p>건강한 삶을 위한 첫걸음, 금연을 시작하세요</p>
+                </div>
+                <div class="footer__links">
+                    <h4>바로가기</h4>
+                    <ul>
+                        <li><a href="index.html#home">홈</a></li>
+                        <li><a href="smoking-dangers.html">흡연위험</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 NOSMOK. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+
+    <script src="script.js"></script>
+</body>
+</html>

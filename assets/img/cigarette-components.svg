@@ -1,0 +1,86 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="cigaretteGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F1FAEE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A8DADC;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="dangerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E63946;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c42b38;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#cigaretteGradient)"/>
+  
+  <!-- Cigarette -->
+  <rect x="200" y="150" width="200" height="30" rx="15" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <rect x="200" y="150" width="20" height="30" rx="15" fill="#FFD700" stroke="#DAA520" stroke-width="2"/>
+  <rect x="380" y="150" width="20" height="30" rx="15" fill="#C0C0C0" stroke="#808080" stroke-width="2"/>
+  
+  <!-- Smoke -->
+  <path d="M400 140 Q420 120, 440 140 Q420 160, 400 140" fill="#E5E5E5" opacity="0.7"/>
+  <path d="M410 130 Q430 110, 450 130 Q430 150, 410 130" fill="#E5E5E5" opacity="0.5"/>
+  <path d="M420 120 Q440 100, 460 120 Q440 140, 420 120" fill="#E5E5E5" opacity="0.3"/>
+  
+  <!-- Chemical Components -->
+  <g class="components">
+    <!-- Nicotine -->
+    <circle cx="150" cy="100" r="25" fill="#9370DB" stroke="#4B0082" stroke-width="2"/>
+    <text x="150" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">니코틴</text>
+    <text x="150" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Nicotine</text>
+    
+    <!-- Tar -->
+    <circle cx="250" cy="80" r="25" fill="#8B0000" stroke="#4B0000" stroke-width="2"/>
+    <text x="250" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">타르</text>
+    <text x="250" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Tar</text>
+    
+    <!-- Carbon Monoxide -->
+    <circle cx="350" cy="100" r="25" fill="#4682B4" stroke="#2F4F4F" stroke-width="2"/>
+    <text x="350" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">일산화탄소</text>
+    <text x="350" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">CO</text>
+    
+    <!-- Carcinogens -->
+    <circle cx="450" cy="80" r="25" fill="#DC143C" stroke="#8B0000" stroke-width="2"/>
+    <text x="150" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">발암물질</text>
+    <text x="150" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Carcinogens</text>
+  </g>
+  
+  <!-- Warning Signs -->
+  <g class="warnings">
+    <!-- Skull and Crossbones -->
+    <circle cx="100" cy="300" r="20" fill="#FF0000" stroke="#8B0000" stroke-width="2"/>
+    <path d="M90 290 Q100 280, 110 290 Q100 300, 90 290" fill="#8B0000"/>
+    <circle cx="95" cy="285" r="2" fill="white"/>
+    <circle cx="105" cy="285" r="2" fill="white"/>
+    <path d="M95 295 Q100 300, 105 295" stroke="white" stroke-width="2" fill="none"/>
+    
+    <!-- Exclamation Triangle -->
+    <polygon points="200,280 220,300 200,320 180,300" fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+    <line x1="200" y1="285" x2="200" y2="305" stroke="#FFA500" stroke-width="3"/>
+    <circle cx="200" cy="310" r="2" fill="#FFA500"/>
+    
+    <!-- Biohazard -->
+    <circle cx="300" cy="300" r="20" fill="#32CD32" stroke="#228B22" stroke-width="2"/>
+    <path d="M300 280 L310 290 L300 300 L290 290 Z" fill="#228B22"/>
+    <circle cx="300" cy="295" r="3" fill="#228B22"/>
+    
+    <!-- Radiation -->
+    <circle cx="400" cy="300" r="20" fill="#FF4500" stroke="#FF6347" stroke-width="2"/>
+    <g stroke="#FF6347" stroke-width="2">
+      <line x1="400" y1="280" x2="400" y2="320"/>
+      <line x1="380" y1="300" x2="420" y2="300"/>
+      <line x1="385" y1="285" x2="415" y2="315"/>
+      <line x1="385" y1="315" x2="415" y2="285"/>
+    </g>
+  </g>
+  
+  <!-- Chemical Formula -->
+  <text x="300" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1D3557">4,000+ 화학물질 | 250+ 유해물질 | 50+ 발암물질</text>
+  
+  <!-- Danger Level -->
+  <rect x="150" y="380" width="300" height="15" rx="7" fill="#E5E5E5" stroke="#CCCCCC" stroke-width="1"/>
+  <rect x="150" y="380" width="300" height="15" rx="7" fill="#FF0000"/>
+  <text x="300" y="392" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">위험도: 치명적</text>
+</svg>

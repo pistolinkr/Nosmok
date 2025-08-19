@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NOSMOK - 금연의 중요성을 알리고 건강한 삶을 위한 정보를 제공하는 웹사이트입니다. 금연의 이점과 방법을 알아보세요.">
+    <meta name="keywords" content="금연, NOSMOK, 건강, 흡연, 금연효과, 금연방법">
+    <meta name="author" content="NOSMOK Team">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nosmok.com/">
+    <meta property="og:title" content="NOSMOK - 금연으로 건강한 삶을 시작하세요">
+    <meta property="og:description" content="금연의 중요성을 알리고 건강한 삶을 위한 정보를 제공합니다.">
+    <meta property="og:image" content="/assets/img/og-image.svg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://nosmok.com/">
+    <meta property="twitter:title" content="NOSMOK - 금연으로 건강한 삶을 시작하세요">
+    <meta property="twitter:description" content="금연의 중요성을 알리고 건강한 삶을 위한 정보를 제공합니다.">
+    <meta property="twitter:image" content="/assets/img/og-image.svg">
+    
+    <title>NOSMOK - 금연으로 건강한 삶을 시작하세요</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h1>NOSMOK</h1>
+            </div>
+            <ul class="nav__menu">
+                <li><a href="#home" class="nav__link">홈</a></li>
+                <li><a href="smoking-dangers.html" class="nav__link">흡연위험</a></li>
+            </ul>
+            <div class="nav__toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section with Typing Animation -->
+        <section id="home" class="hero">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h2 class="hero__title">금연으로 <span class="typing-container"><span class="typing-text"></span></span></h2>
+                    <p class="hero__description">
+                        흡연은 건강에 치명적인 위험을 초래합니다. 
+                        지금 당신의 건강한 미래를 위해 금연을 시작하세요.
+                    </p>
+                    <div class="hero__buttons">
+                        <button class="btn btn--primary" onclick="scrollToSection('benefits')">
+                            <i class="fas fa-heart"></i> 금연효과 보기
+                        </button>
+                        <button class="btn btn--secondary" onclick="scrollToSection('methods')">
+                            <i class="fas fa-lightbulb"></i> 금연방법 알아보기
+                        </button>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="benefits" class="benefits section">
+            <div class="container">
+                <div class="section__header">
+                    <h3 class="section__title">금연의 놀라운 효과</h3>
+                    <p class="section__subtitle">금연 후 시간이 지날수록 나타나는 건강상의 변화를 확인해보세요</p>
+                </div>
+                
+                <div class="benefits__grid">
+                    <div class="benefit__card">
+                        <div class="benefit__icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h4>20분 후</h4>
+                        <p>혈압과 맥박이 정상으로 회복됩니다</p>
+                    </div>
+                    
+                    <div class="benefit__card">
+                        <div class="benefit__icon">
+                            <i class="fas fa-lungs"></i>
+                        </div>
+                        <h4>8시간 후</h4>
+                        <p>혈중 일산화탄소 농도가 정상으로 돌아옵니다</p>
+                    </div>
+                    
+                    <div class="benefit__card">
+                        <div class="benefit__icon">
+                            <i class="fas fa-smile"></i>
+                        </div>
+                        <h4>24시간 후</h4>
+                        <p>심장마비 위험이 감소하기 시작합니다</p>
+                    </div>
+                    
+                    <div class="benefit__card">
+                        <div class="benefit__icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>1년 후</h4>
+                        <p>관상동맥질환 위험이 절반으로 줄어듭니다</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Methods Section -->
+        <section id="methods" class="methods section">
+            <div class="container">
+                <div class="section__header">
+                    <h3 class="section__title">효과적인 금연 방법</h3>
+                    <p class="section__subtitle">성공적인 금연을 위한 다양한 방법들을 소개합니다</p>
+                </div>
+                
+                <div class="methods__content">
+                    <div class="method__item">
+                        <div class="method__image">
+                            <img src="/assets/img/method-1.svg" alt="점진적 금연 방법" loading="lazy">
+                        </div>
+                        <div class="method__text">
+                            <h4>점진적 금연법</h4>
+                            <p>갑작스러운 금연보다는 하루에 몇 개씩 줄여가며 점진적으로 금연하는 방법입니다. 
+                            이는 금단증상을 줄이고 성공률을 높이는 데 도움이 됩니다.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="method__item">
+                        <div class="method__text">
+                            <h4>행동치료</h4>
+                            <p>흡연과 연관된 행동 패턴을 파악하고 이를 대체하는 방법입니다. 
+                            스트레스 해소를 위한 운동이나 취미활동을 찾는 것이 중요합니다.</p>
+                        </div>
+                        <div class="method__image">
+                            <img src="/assets/img/method-2.svg" alt="행동치료 방법" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="method__item">
+                        <div class="method__image">
+                            <img src="/assets/img/method-3.svg" alt="전문의 상담" loading="lazy">
+                        </div>
+                        <div class="method__text">
+                            <h4>전문의 상담</h4>
+                            <p>금연클리닉이나 전문의와의 상담을 통해 개인에게 맞는 금연 계획을 수립합니다. 
+                            약물치료와 함께 진행하면 성공률이 더욱 높아집니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section class="statistics section">
+            <div class="container">
+                <div class="statistics__grid">
+                    <div class="stat__item">
+                        <div class="stat__number" data-target="5000000">0</div>
+                        <p>연간 흡연으로 인한 사망자 수</p>
+                    </div>
+                    <div class="stat__item">
+                        <div class="stat__number" data-target="15">0</div>
+                        <p>흡연으로 단축되는 수명(년)</p>
+                    </div>
+                    <div class="stat__item">
+                        <div class="stat__number" data-target="80">0</div>
+                        <p>금연 성공률 증가 효과(%)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Medical Evidence Section -->
+        <section id="medical-evidence" class="section medical-evidence">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">의학적 근거</h2>
+                    <p class="section__subtitle">금연의 효과는 의학적으로 증명되었습니다. WHO, CDC 등 세계적 의료기관들이 인정한 금연의 효과를 확인해보세요.</p>
+                </div>
+                
+                <div class="evidence__grid">
+                    <div class="evidence__card">
+                        <div class="evidence__icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>심혈관계 회복</h3>
+                        <div class="evidence__timeline">
+                            <div class="timeline__item">
+                                <span class="timeline__time">20분</span>
+                                <span class="timeline__effect">혈압과 맥박이 정상으로 회복</span>
+                            </div>
+                            <div class="timeline__item">
+                                <span class="timeline__time">24시간</span>
+                                <span class="timeline__effect">심장마비 위험이 감소</span>
+                            </div>
+                            <div class="timeline__item">
+                                <span class="timeline__time">1년</span>
+                                <span class="timeline__effect">관상동맥질환 위험이 50% 감소</span>
+                            </div>
+                        </div>
+                        <div class="evidence__source">출처: 미국심장협회(AHA)</div>
+                    </div>
+                    
+                    <div class="evidence__card">
+                        <div class="evidence__icon">
+                            <i class="fas fa-lungs"></i>
+                        </div>
+                        <h3>호흡기계 회복</h3>
+                        <div class="evidence__timeline">
+                            <div class="timeline__item">
+                                <span class="timeline__time">8시간</span>
+                                <span class="timeline__effect">혈중 일산화탄소 농도 정상화</span>
+                            </div>
+                            <div class="timeline__item">
+                                <span class="timeline__time">1주일</span>
+                                <span class="timeline__effect">기침과 가래 현저히 감소</span>
+                            </div>
+                            <div class="timeline__item">
+                                <span class="timeline__time">1개월</span>
+                                <span class="timeline__effect">폐기능 개선 및 호흡 곤란 감소</span>
+                            </div>
+                        </div>
+                        <div class="evidence__source">출처: 미국폐협회(ALA)</div>
+                    </div>
+                    
+                    <div class="evidence__card">
+                        <div class="evidence__icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>신경계 회복</h3>
+                        <div class="evidence__timeline">
+                            <div class="timeline__item">
+                                <span class="timeline__time">48시간</span>
+                                <span class="timeline__effect">니코틴이 체내에서 완전히 제거</span>
+                            </div>
+                            <div class="timeline__item">
+                                <span class="timeline__time">2주</span>
+                                <span class="timeline__effect">니코틴 의존성 현저히 감소</span>
+                            </div>
+                            <div class="timeline__item">
+                                <span class="timeline__time">1개월</span>
+                                <span class="timeline__effect">스트레스 대처 능력 향상</span>
+                            </div>
+                        </div>
+                        <div class="evidence__source">출처: 미국질병통제예방센터(CDC)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3>NOSMOK</h3>
+                    <p>건강한 삶을 위한 첫걸음, 금연을 시작하세요</p>
+                </div>
+                                                    <div class="footer__links">
+                    <h4>바로가기</h4>
+                    <ul>
+                        <li><a href="#home">홈</a></li>
+                        <li><a href="smoking-dangers.html">흡연위험</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 NOSMOK. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Research Detail Modal (연구 상세 내용) -->
+    <div id="research-modal" class="research-modal">
+        <div class="research__content">
+            <button class="research__close" onclick="closeResearchModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div id="research-content">
+                <!-- 연구 상세 내용이 여기에 동적으로 로드됩니다 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup Modal (사이트 방문시 한 번만 표시) -->
+    <div id="popup-modal" class="popup-modal">
+        <div class="popup__content">
+            <button class="popup__close" onclick="closePopup()">
+                <i class="fas fa-times"></i>
+            </button>
+            <h3>금연의 의학적으로 증명된 효과</h3>
+            <p>WHO, CDC, 미국심장협회 등에서 공인한 금연 후 건강 회복 타임라인입니다</p>
+            
+            <div class="popup__benefits">
+                <div class="popup__benefit">
+                    <div class="popup__icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="popup__time">20분 후</div>
+                    <div class="popup__effect">혈압과 맥박이 정상 수준으로 회복</div>
+                    <div class="popup__source">출처: CDC</div>
+                </div>
+                
+                <div class="popup__benefit">
+                    <div class="popup__icon">
+                        <i class="fas fa-lungs"></i>
+                    </div>
+                    <div class="popup__time">8시간 후</div>
+                    <div class="popup__effect">혈중 일산화탄소 농도가 정상치로 감소</div>
+                    <div class="popup__source">출처: WHO</div>
+                </div>
+                
+                <div class="popup__benefit">
+                    <div class="popup__icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="popup__time">24시간 후</div>
+                    <div class="popup__effect">심장마비 위험이 감소하기 시작</div>
+                    <div class="popup__source">출처: AHA</div>
+                </div>
+                
+                <div class="popup__benefit">
+                    <div class="popup__icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="popup__time">1년 후</div>
+                    <div class="popup__effect">관상동맥질환 위험이 50% 감소</div>
+                    <div class="popup__source">출처: NEJM</div>
+                </div>
+            </div>
+            
+            <div class="popup__footer">
+                <p class="popup__disclaimer">* 모든 효과는 개인차이가 있을 수 있으며, 의학적 상담이 권장됩니다</p>
+            </div>
+            
+            <div class="popup__actions">
+                <button class="btn btn--primary" onclick="closePopup()">알겠습니다</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<svg width="400" height="350" viewBox="0 0 400 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0000ff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.9" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="200" cy="175" r="120" fill="url(#heroGradient)" opacity="0.3"/>
+  
+  <!-- Main Heart Symbol -->
+  <path d="M200 105 C200 105, 180 85, 160 105 C140 125, 200 165, 200 165 C200 165, 260 125, 240 105 C220 85, 200 105, 200 105 Z" 
+        fill="#0000ff" filter="url(#glow)" opacity="0.9"/>
+  
+  <!-- Leaf Elements -->
+  <path d="M120 145 Q140 125, 160 145 Q140 165, 120 145 Z" fill="#00ff00" opacity="0.7"/>
+  <path d="M280 145 Q260 125, 240 145 Q260 165, 280 145 Z" fill="#00ff00" opacity="0.7"/>
+  <path d="M200 225 Q220 205, 240 225 Q220 245, 200 225 Z" fill="#00ff00" opacity="0.7"/>
+  
+  <!-- Abstract Health Symbols -->
+  <circle cx="150" cy="205" r="15" fill="none" stroke="#0000ff" stroke-width="2" opacity="0.6"/>
+  <circle cx="250" cy="205" r="15" fill="none" stroke="#0000ff" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Energy Lines -->
+  <line x1="100" y1="125" x2="130" y2="155" stroke="#0000ff" stroke-width="2" opacity="0.5"/>
+  <line x1="300" y1="125" x2="270" y2="155" stroke="#0000ff" stroke-width="2" opacity="0.5"/>
+  <line x1="200" y1="75" x2="200" y2="105" stroke="#0000ff" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Floating Particles -->
+  <circle cx="120" cy="105" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="280" cy="105" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="180" cy="245" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="220" cy="245" r="3" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Text -->
+  <text x="200" y="295" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+    HEALTHY LIFE
+  </text>
+  
+  <!-- Korean Text -->
+  <text x="200" y="320" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" opacity="0.8">
+    건강한 삶
+  </text>
+</svg>

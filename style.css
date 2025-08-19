@@ -1781,7 +1781,7 @@ p {
 
 .footer__content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 3rem;
     margin-bottom: 2rem;
 }
@@ -1810,6 +1810,38 @@ p {
 
 .footer__links a:hover {
     color: var(--accent-color);
+}
+
+.footer__github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github-link {
+    color: var(--text-light);
+    text-decoration: none;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--border-color);
+    border-radius: 50%;
+    background-color: transparent;
+    transition: var(--transition);
+}
+
+.github-link:hover {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    background-color: rgba(74, 144, 226, 0.1);
+    transform: translateY(-2px);
+}
+
+.github-link i {
+    font-size: 1.5rem;
 }
 
 

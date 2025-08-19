@@ -1158,6 +1158,9 @@ p {
 .nav.container {
     position: relative;
     z-index: 9999;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
 }
 
 .nav__logo h1 {
@@ -1781,8 +1784,8 @@ p {
 
 .footer__content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -1842,6 +1845,42 @@ p {
 
 .github-link i {
     font-size: 1.5rem;
+}
+
+.footer__support h4 {
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+}
+
+.support__phone {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.support__phone i {
+    color: var(--accent-color);
+    font-size: 1.2rem;
+}
+
+.support__phone a {
+    color: var(--text-light);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.support__phone a:hover {
+    color: var(--accent-color);
+}
+
+.support__info {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.4;
 }
 
 
@@ -2712,6 +2751,10 @@ p {
         padding: 1.5rem 0;
     }
     
+    .nav.container {
+        min-height: 100px;
+    }
+    
     .popup__benefits {
         grid-template-columns: 1fr;
         gap: 1rem;
@@ -2817,6 +2860,10 @@ p {
 @media (max-width: 480px) {
     .nav {
         padding: 2rem 0;
+    }
+    
+    .nav.container {
+        min-height: 120px;
     }
     
     .container {

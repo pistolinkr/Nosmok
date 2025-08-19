@@ -2708,6 +2708,10 @@ p {
 }
 
 @media (max-width: 768px) {
+    .nav {
+        padding: 1.5rem 0;
+    }
+    
     .popup__benefits {
         grid-template-columns: 1fr;
         gap: 1rem;
@@ -2811,6 +2815,10 @@ p {
 }
 
 @media (max-width: 480px) {
+    .nav {
+        padding: 2rem 0;
+    }
+    
     .container {
         padding: 0 0.5rem;
     }

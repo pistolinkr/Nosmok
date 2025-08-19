@@ -2804,7 +2804,7 @@ p {
         -webkit-backdrop-filter: blur(20px);
         -moz-backdrop-filter: blur(20px);
         flex-direction: column;
-        padding: 2rem;
+        padding: 1rem;
         transform: translateY(-100%);
         transition: var(--transition);
         opacity: 0;
